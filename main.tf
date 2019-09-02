@@ -3,10 +3,10 @@
 terraform {
     backend "remote" {
         hostname = "app.terraform.io"
-        organization = "terraformers"
+        organization = "lightspeedsys"
 
         workspaces {
-            name = "tester"
+            name = "pamswifi"
         }
 
     }
@@ -14,7 +14,7 @@ terraform {
 
 provider "aws" {
   profile    = "default"
-  region     = "us-east-1"
+  region     = "us-west-2"
 }
 
 
