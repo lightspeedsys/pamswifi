@@ -1,0 +1,10 @@
+{
+    "sshfs.configs": [
+        {
+            "host": "3.212.218.136",
+            "name": "unifi",
+            "privateKeyPath": "~/.ssh/unifi.pem",
+            "username": "ubuntu"
+        }
+    ]
+}
